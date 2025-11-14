@@ -50,7 +50,7 @@ print("Model loaded successfully!")
 # Load and process image
 start = time.time()
 
-image_path = "A1.png"
+image_path = "put picture here{jpg png}"
 print(f"\nProcessing image: {image_path}")
 image = Image.open(image_path).convert("RGB")
 
@@ -91,3 +91,4 @@ print("="*50)
 print(text)
 print("="*50)
 print(gc.get_stats())
+
